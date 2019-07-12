@@ -1,0 +1,11 @@
+{
+  "name": "isNotEmptyArray",
+  "author": "palkinvadim2017@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VadLogan/isNotEmptyArray"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
