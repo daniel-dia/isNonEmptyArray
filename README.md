@@ -1,2 +1,4 @@
-# isNotEmptyArray
-helper to define is arg Array and has  some values
+# *isNotEmptyArray*
+helper to define is arg Array and has some values.
+
+
