@@ -1,5 +1,5 @@
 {
-  "name": "isNotEmptyArray",
+  "name": "is-not-empty-array",
   "author": "palkinvadim2017@gmail.com",
   "description": "helper to define is arg Array and has some values",
   "keywords": [
