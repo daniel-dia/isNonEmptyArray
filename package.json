@@ -1,12 +1,22 @@
 {
   "name": "isNotEmptyArray",
   "author": "palkinvadim2017@gmail.com",
+  "description": "helper to define is arg Array and has some values",
+  "keywords": [
+    "array helper",
+    "isEmpty",
+    "hasValues",
+    "empty array"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/VadLogan/isNotEmptyArray"
   },
   "scripts": {
     "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/VadLogan/isNotEmptyArray/issues"
   },
   "version": "1.0.0",
   "main": "index.js",
