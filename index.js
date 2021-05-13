@@ -1,1 +1,1 @@
-module.exports = require("./isNotEmptyArray");
+module.exports = require("./isNonEmptyArray");

@@ -1,5 +1,5 @@
 {
-    "name": "is-not-empty-array-boolean",
+    "name": "is-non-empty-array",
     "description": "helper to define is arg Array and has some values",
     "keywords": [
         "array helper",
@@ -9,13 +9,13 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/daniel-dia/isNotEmptyArrayBoolean"
+        "url": "https://github.com/daniel-dia/isNonEmptyArray"
     },
     "scripts": {
         "test": "jest"
     },
     "bugs": {
-        "url": "https://github.com/daniel-dia/isNotEmptyArrayBoolean/issues"
+        "url": "https://github.com/daniel-dia/isNonEmptyArray/issues"
     },
     "version": "1.0.0",
     "main": "index.js",

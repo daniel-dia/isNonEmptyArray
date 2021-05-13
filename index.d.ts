@@ -1,2 +1,1 @@
-declare function isNotEmptyArray(arg: Array<any>): boolean;
-export default isNotEmptyArray;
+export default function isNonEmptyArray(arg: Array<any>): boolean;
