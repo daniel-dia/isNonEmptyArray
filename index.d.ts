@@ -1,3 +1,2 @@
-declare function isNotEmptyArray(arg: any): arg is Array<any> | false;
-
+declare function isNotEmptyArray(arg: Array<any>): boolean;
 export default isNotEmptyArray;

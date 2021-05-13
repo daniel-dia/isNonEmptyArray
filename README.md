@@ -6,6 +6,6 @@ helper to define is arg Array and has some values.
 ```
 isNotEmptyArray([]) // false
 isNotEmptyArray({}) // false   
-isNotEmptyArray([ "some value" ]) // ["some value"]
+isNotEmptyArray([ "some value" ]) // true
 
 ```

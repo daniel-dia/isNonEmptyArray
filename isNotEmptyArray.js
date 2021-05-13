@@ -1,9 +1,5 @@
 function isNotEmptyArray(arr) {
-  if (Array.isArray(arr) && arr.length > 0) {
-    return arr;
-  }
-
-  return false;
+    return Array.isArray(arr) && arr.length > 0;
 }
 
 module.exports = isNotEmptyArray;
