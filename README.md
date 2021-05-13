@@ -1,11 +1,18 @@
-# *isNonEmptyArray*
+# _isNonEmptyArray_
+
 helper to define is arg Array and has some values.
 
-# *examples*
+# _examples_
 
 ```
-isNotEmptyArray([]) // false
-isNotEmptyArray({}) // false   
-isNotEmptyArray([ "some value" ]) // true
+const isNonEmptyArray = require('is-non-empty-array');
+
+isNonEmptyArray([ "some value" ]); // returns true
+
+isNonEmptyArray([]); // returns false
+isNonEmptyArray({}); // returns false
+isNonEmptyArray(null); // returns false
+isNonEmptyArray(undefined); // returns false
+isNonEmptyArray('some string'); // returns false
 
 ```

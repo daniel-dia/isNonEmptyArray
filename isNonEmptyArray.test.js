@@ -1,4 +1,4 @@
-const isNonEmptyArray = require("./isNonEmptyArray");
+const isNonEmptyArray = require(".");
 
 describe("isNonEmptyArray", () => {
     it("should falsy if object", () => {
@@ -13,7 +13,7 @@ describe("isNonEmptyArray", () => {
         expect(isNonEmptyArray(false)).toBeFalsy();
     });
 
-    it("should falsy if undefineable", () => {
+    it("should falsy if undefinable", () => {
         expect(isNonEmptyArray(undefined)).toBeFalsy();
     });
 
